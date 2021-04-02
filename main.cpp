@@ -7,8 +7,8 @@ int main(){
     matrix2.write(arr);
     matrix.read();
     matrix2.read();
-
-    std::cout << &matrix << "   " << &matrix2;
  
-    matrix + matrix2;
+    (matrix + matrix2).read();
+    matrix3 = matrix;
+    matrix3.read();
 }

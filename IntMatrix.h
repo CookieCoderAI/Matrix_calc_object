@@ -24,7 +24,7 @@ public:
 	IntMatrix operator -(IntMatrix);
 	IntMatrix operator *(int);
 	IntMatrix operator *(IntMatrix);
-	IntMatrix operator =(IntMatrix);
+	void operator =(IntMatrix&);
 
 
 };
